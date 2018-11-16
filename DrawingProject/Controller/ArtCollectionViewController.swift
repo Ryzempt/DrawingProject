@@ -23,7 +23,7 @@ public class ArtCollectionViewController: UICollectionViewController
     UIImage(named: "Mclaren P1 GTR"),
     UIImage(named: "Anthem Art"),
     UIImage(named:"octocat"),
-    UIImage(named:"22220481_155523625046994_2001649425033723904_n(1).jpg"),
+    UIImage(named:"Steel Wool")
     ]
 }()
 
@@ -33,7 +33,7 @@ private let  labels : [String] =
         "Mclaren",
         "Anthem",
         "OctoBoy",
-        "Steel Woool",
+        "Steel Woool"
        
     ]
 }( )
@@ -45,10 +45,7 @@ private let  labels : [String] =
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
-        // Register cell classes
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
-        // Do any additional setup after loading the view.
+        
     }
 
     public override func didReceiveMemoryWarning()
